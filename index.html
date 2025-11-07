@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra.Gabriela Brozio - Advocacia Trabalhista e de Família</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Interativo -->
+    <div class="interactive-background">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+        <div class="particles-container" id="particles"></div>
+    </div>
+
+    <!-- Cursor Personalizado -->
+    <div class="custom-cursor"></div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Dra.Gabriela <span>Brozio</span></a>
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#areas" class="nav-link">Áreas</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="text-reveal">
+                    <h1>Proteção Jurídica para sua <span class="highlight">Família</span> e <span class="highlight">Trabalho</span></h1>
+                </div>
+                <div class="text-reveal">
+                    <p>Advocacia especializada com abordagem humanizada e resultados eficazes.</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn-primary magnetic" data-strength="0.5">
+                        <span class="btn-text">Falar no WhatsApp</span>
+                        <div class="btn-shine"></div>
+                    </a>
+                    <a href="#areas" class="btn-secondary magnetic" data-strength="0.3">
+                        <span class="btn-text">Conhecer Áreas</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-frame hover-3d">
+                    <img src="img/dragabriela.png" alt="Dra. Gabriela BROZIO - Advogada" class="profile-img">
+                    <div class="image-glow"></div>
+                    <div class="floating-elements">
+                        <div class="floating-element element-1">✓</div>
+                        <div class="floating-element element-2">10+ anos</div>
+                        <div class="floating-element element-3">🎓</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="scroll-text">Role para explorar</div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <div class="section-header">
+                        <h2>Dra. Gabriela BROZIO</h2>
+                        <p class="sobre-subtitle">Advogada especializada em Direito de Família e Trabalhista</p>
+                    </div>
+                    <p>Com mais de 10 anos de experiência, atuo com comprometimento e sensibilidade para oferecer soluções jurídicas personalizadas.</p>
+                    
+                    <div class="interactive-timeline">
+                        <div class="timeline-item active" data-year="2013">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Início da Carreira</h4>
+                                <p>Formação e primeiros casos</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-year="2018">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Especialização</h4>
+                                <p>Pós-graduação em Direito</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-year="2023">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Escritório Próprio</h4>
+                                <p>Atendimento personalizado</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="sobre-destaques">
+                        <div class="destaque-item hover-lift">
+                            <span class="destaque-numero" data-count="500">0</span>
+                            <span class="destaque-texto">Casos Resolvidos</span>
+                        </div>
+                        <div class="destaque-item hover-lift">
+                            <span class="destaque-numero" data-count="10">0</span>
+                            <span class="destaque-texto">Anos de Experiência</span>
+                        </div>
+                        <div class="destaque-item hover-lift">
+                            <span class="destaque-numero" data-count="98">0</span>
+                            <span class="destaque-texto">Satisfação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-imagem">
+                    <div class="imagem-container hover-3d">
+                        <img src="img/dragabriela2.png" alt="Dra. Gabriela BROZIO no escritório" class="sobre-img">
+                        <div class="experience-badge pulse">
+                            <span>10+ anos</span>
+                            <small>experiência</small>
+                        </div>
+                        <div class="image-hover-info">
+                            <div class="info-bubble">
+                                <i class="fas fa-award"></i>
+                                <span>Especialista</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Áreas de Atuação -->
+    <section id="areas" class="areas">
+        <div class="container">
+            <h2 class="section-title">Áreas de Atuação</h2>
+            <div class="areas-grid">
+                <div class="area-card interactive-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="area-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Direito de Família</h3>
+                            <div class="card-hint">
+                                <span>Clique para ver mais</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Direito de Família</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Divórcio e separação</li>
+                                <li><i class="fas fa-check"></i> Guarda de filhos</li>
+                                <li><i class="fas fa-check"></i> Pensão alimentícia</li>
+                                <li><i class="fas fa-check"></i> Inventário e partilha</li>
+                                <li><i class="fas fa-check"></i> União estável</li>
+                                <li><i class="fas fa-check"></i> Adoção</li>
+                            </ul>
+                            <button class="card-close">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+                
+                <div class="area-card interactive-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="area-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <h3>Direito Trabalhista</h3>
+                            <div class="card-hint">
+                                <span>Clique para ver mais</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Direito Trabalhista</h3>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Rescisão indireta</li>
+                                <li><i class="fas fa-check"></i> Horas extras</li>
+                                <li><i class="fas fa-check"></i> Assédio moral</li>
+                                <li><i class="fas fa-check"></i> Acidentes de trabalho</li>
+                                <li><i class="fas fa-check"></i> FGTS e verbas</li>
+                                <li><i class="fas fa-check"></i> Equiparação salarial</li>
+                            </ul>
+                            <button class="card-close">
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato WhatsApp -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h3>Fale Diretamente pelo WhatsApp</h3>
+                    <p>Estou à disposição para esclarecer suas dúvidas e avaliar seu caso.</p>
+                    
+                    <div class="whatsapp-card interactive-card">
+                        <div class="whatsapp-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="whatsapp-info">
+                            <h4>Conversar no WhatsApp</h4>
+                            <p>Resposta rápida - Atendimento personalizado</p>
+                            <a href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma consulta" class="btn-whatsapp magnetic" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                <span class="btn-text">Iniciar Conversa</span>
+                                <div class="btn-shine"></div>
+                            </a>
+                        </div>
+                        <div class="status-indicator">
+                            <div class="status-dot"></div>
+                            <span>Online agora</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item hover-lift">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <div class="info-text">
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 9h às 18h</p>
+                            <p>Sábados: 9h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contato-alternativo">
+                    <h3>Outras Formas de Contato</h3>
+                    <div class="contato-item hover-lift">
+                        <div class="contato-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contato-details">
+                            <h4>E-mail</h4>
+                            <p>contato@drasilva.adv.br</p>
+                            <a href="mailto:contato@drasilva.adv.br" class="btn-secondary">Enviar E-mail</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contato-item hover-lift">
+                        <div class="contato-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contato-details">
+                            <h4>Escritório</h4>
+                            <p>Av. Paulista, 1000 - São Paulo/SP</p>
+                            <a href="https://maps.google.com" class="btn-secondary" target="_blank">Ver no Mapa</a>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Interativo -->
+                    <div class="faq-section">
+                        <h4>Perguntas Frequentes</h4>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Qual o valor da consulta?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>A primeira consulta é gratuita para análise do seu caso.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>Quanto tempo leva um processo?</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>O prazo varia conforme a complexidade do caso, mas trabalhamos com agilidade em todas as etapas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>Advocacia especializada em Direito de Família e Trabalhista</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link magnetic" data-strength="0.2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link magnetic" data-strength="0.2"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link magnetic" data-strength="0.2"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#inicio" class="footer-link">Início</a></li>
+                        <li><a href="#sobre" class="footer-link">Sobre</a></li>
+                        <li><a href="#areas" class="footer-link">Áreas</a></li>
+                        <li><a href="#contato" class="footer-link">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contato">
+                    <h4>Contato</h4>
+                    <p><i class="fab fa-whatsapp"></i> (11) 99999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@drasilva.adv.br</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000 - SP</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Dra. Ana Silva - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Botão Voltar ao Topo -->
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
